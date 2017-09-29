@@ -1,0 +1,27 @@
+
+Documentation:
+    Enabled: false
+
+AllCops:
+  Exclude:
+    - '*.feature'
+
+  TargetRubyVersion: 2.3.0
+
+Style/Encoding:
+  EnforcedStyle: when_needed
+  Enabled: true
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: alway
+
+Style/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Style/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 80
+
+  
