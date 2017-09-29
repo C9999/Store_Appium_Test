@@ -9,6 +9,86 @@ Arquivo .apk em Loja_Virtual_Appium/features/support/netshoes.apk
 Nesse projeto foi usado BDD para a escrita das features e compartamentos do aplicativo. 
 Ruby + Appium para o desenvolvimento dos steps de testes.
 
+## Arquitetura do projeto 
+
+```
+├── Gemfile
+├── Gemfile.lock
+├── README.md
+├── Rakefile
+├── doc
+│   ├── Carrinho.html
+│   ├── CartCheckout.html
+│   ├── LoginEmail.html
+│   ├── SearchProducts.html
+│   ├── _index.html
+│   ├── class_list.html
+│   ├── css
+│   │   ├── common.css
+│   │   ├── cucumber.css
+│   │   ├── full_list.css
+│   │   └── style.css
+│   ├── feature_list.html
+│   ├── file.README.html
+│   ├── file_list.html
+│   ├── frames.html
+│   ├── index.html
+│   ├── js
+│   │   ├── app.js
+│   │   ├── cucumber.js
+│   │   ├── full_list.js
+│   │   └── jquery.js
+│   ├── method_list.html
+│   ├── requirements
+│   │   ├── features
+│   │   │   ├── add_carrinho.html
+│   │   │   ├── busca.html
+│   │   │   ├── carrinho.html
+│   │   │   └── login.html
+│   │   ├── features.html
+│   │   ├── step_transformers.html
+│   │   ├── tags
+│   │   │   ├── add_carrinho.html
+│   │   │   ├── busca.html
+│   │   │   ├── busca_produto.html
+│   │   │   ├── buscas.html
+│   │   │   ├── carrinho.html
+│   │   │   ├── login.html
+│   │   │   ├── login_cpf.html
+│   │   │   ├── login_email.html
+│   │   │   ├── login_errado.html
+│   │   │   ├── logins.html
+│   │   │   └── logout.html
+│   │   └── tags.html
+│   ├── requirements.html
+│   ├── tag_list.html
+│   └── top-level-namespace.html
+├── features
+│   ├── busca.feature
+│   ├── cadastro.feature
+│   ├── carrinho.feature
+│   ├── login.feature
+│   ├── screens
+│   │   ├── busca_screen.rb
+│   │   ├── carrinho_screen.rb
+│   │   └── login_screen.rb
+│   ├── step_definitions
+│   │   ├── busca_steps.rb
+│   │   ├── carrinho_steps.rb
+│   │   ├── general_methods.rb
+│   │   ├── general_steps.rb
+│   │   └── login_steps.rb
+│   └── support
+│       ├── credentials.rb
+│       ├── erv.rb
+│       ├── hooks.rb
+│       ├── netshoes.apk
+│       └── products.rb
+├── report.html
+└── rubocop.yml
+```
+
+
 ## Credenciais
 
 Será necessário criar um usuário no app ou site da Netshoes para que os testes de login passem. 
