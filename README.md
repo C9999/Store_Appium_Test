@@ -9,6 +9,32 @@ Arquivo .apk em Loja_Virtual_Appium/features/support/netshoes.apk
 Nesse projeto foi usado BDD para a escrita das features e compartamentos do aplicativo. 
 Ruby + Appium para o desenvolvimento dos steps de testes.
 
+## Credenciais
+
+Será necessário criar um usuário no app ou site da Netshoes para que os testes de login passem. 
+Os dados desse usuário devem ser inseridos no arquivo "credentials.rb" dentro da pasta "features/support"
+
+Adicione também um usuário com dados errados, pois existe um teste que valida isso também. O formato deve seguir o modelo abaixo: 
+
+```
+CREDENTIALS = {
+    comprador: {
+        email: 'car_soad@hotmail.com',
+        password: 'senhacerta',
+        wrong_password: 'fit',
+        name: 'Carlos',
+        full_name: 'Carlos Araújo',
+        cpf: '04815162342',
+   },
+   comprador_errado: {
+        email: 'fraudador@f.com.br',
+        password: '4815162342',
+        name: 'Fakeson',
+        cpf: '11122233344',
+   },
+}.freeze
+```
+
 ## Instalação projeto de testes e suas dependências
 
 ### > Gemfile
