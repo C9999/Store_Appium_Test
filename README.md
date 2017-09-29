@@ -17,52 +17,6 @@ Ruby + Appium para o desenvolvimento dos steps de testes.
 ├── README.md
 ├── Rakefile
 ├── doc
-│   ├── Carrinho.html
-│   ├── CartCheckout.html
-│   ├── LoginEmail.html
-│   ├── SearchProducts.html
-│   ├── _index.html
-│   ├── class_list.html
-│   ├── css
-│   │   ├── common.css
-│   │   ├── cucumber.css
-│   │   ├── full_list.css
-│   │   └── style.css
-│   ├── feature_list.html
-│   ├── file.README.html
-│   ├── file_list.html
-│   ├── frames.html
-│   ├── index.html
-│   ├── js
-│   │   ├── app.js
-│   │   ├── cucumber.js
-│   │   ├── full_list.js
-│   │   └── jquery.js
-│   ├── method_list.html
-│   ├── requirements
-│   │   ├── features
-│   │   │   ├── add_carrinho.html
-│   │   │   ├── busca.html
-│   │   │   ├── carrinho.html
-│   │   │   └── login.html
-│   │   ├── features.html
-│   │   ├── step_transformers.html
-│   │   ├── tags
-│   │   │   ├── add_carrinho.html
-│   │   │   ├── busca.html
-│   │   │   ├── busca_produto.html
-│   │   │   ├── buscas.html
-│   │   │   ├── carrinho.html
-│   │   │   ├── login.html
-│   │   │   ├── login_cpf.html
-│   │   │   ├── login_email.html
-│   │   │   ├── login_errado.html
-│   │   │   ├── logins.html
-│   │   │   └── logout.html
-│   │   └── tags.html
-│   ├── requirements.html
-│   ├── tag_list.html
-│   └── top-level-namespace.html
 ├── features
 │   ├── busca.feature
 │   ├── cadastro.feature
