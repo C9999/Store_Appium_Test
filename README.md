@@ -3,6 +3,7 @@
 O projeto consiste em um aplicativo e-commerce, onde é possível realizar pesquisas de produtos e realizar compras de mercadorias.
 
 Arquivo .apk em Loja_Virtual_Appium/features/support/netshoes.apk
+Versão iOS pendente
 
 ## Projeto de testes
 
